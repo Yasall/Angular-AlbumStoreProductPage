@@ -15,6 +15,7 @@ const AppRoutes:Routes = [
   {path: 'product/:id', component:ProductPageComponent},
   {path: '', redirectTo: 'products', pathMatch:'full'}
 ];
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,3 +34,4 @@ const AppRoutes:Routes = [
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
