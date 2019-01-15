@@ -16,6 +16,7 @@ const AppRoutes:Routes = [
   {path: '', redirectTo: 'products', pathMatch:'full'}
 ];
 
+//Oi GitHub
 @NgModule({
   declarations: [
     AppComponent,
